@@ -1,0 +1,12 @@
+{
+  "name": "@project/assets",
+  "main": "./index.tsx",
+  "files": [
+    "images"
+  ],
+  "scripts": {
+    "type-check": "tsc --noEmit"
+  },
+  "types": "./**/.tsx",
+  "version": "0.0.0"
+}

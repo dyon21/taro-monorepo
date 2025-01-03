@@ -1,0 +1,12 @@
+{
+  "name": "@project/api",
+  "main": "./src/index.ts",
+  "module": "./src/index.ts",
+  "scripts": {
+    "type-check": "tsc --noEmit"
+  },
+  "version": "0.0.0",
+  "dependencies": {
+    "axios": "^1.7.9"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "@project/components",
+  "main": "./index.tsx",
+  "scripts": {
+    "dev:app1": "tailwindcss -c ./tailwind.app1.config.js -i ./styles.css -o ./dist/index.css --watch",
+    "dev:app2": "tailwindcss -c ./tailwind.app2.config.js -i ./styles.css -o ./dist/index.css --watch",
+    "build:app1": "tailwindcss -c ./tailwind.app1.config.js -i ./styles.css -o ./dist/index.css",
+    "build:app2": "tailwindcss -c ./tailwind.app2.config.js -i ./styles.css -o ./dist/index.css"
+  },
+  "types": "./**/.tsx",
+  "version": "0.0.0",
+  "dependencies": {
+    "@project/assets": "workspace:*",
+    "@project/utils": "workspace:*"
+  }
+}

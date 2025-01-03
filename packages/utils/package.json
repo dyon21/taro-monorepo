@@ -1,0 +1,9 @@
+{
+  "name": "@project/utils",
+  "main": "./index.tsx",
+  "scripts": {
+    "type-check": "tsc --noEmit"
+  },
+  "types": "./**/.tsx",
+  "version": "0.0.0"
+}
